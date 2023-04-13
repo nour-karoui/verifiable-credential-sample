@@ -1,0 +1,28 @@
+{
+  "name": "veramo-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@veramo/core": "^5.1.2",
+    "@veramo/credential-w3c": "^5.1.4",
+    "@veramo/data-store": "^5.1.2",
+    "@veramo/did-manager": "^5.1.2",
+    "@veramo/did-provider-ethr": "^5.1.2",
+    "@veramo/did-resolver": "^5.1.2",
+    "@veramo/key-manager": "^5.1.2",
+    "@veramo/kms-local": "^5.1.2",
+    "dotenv": "^16.0.3",
+    "ethr-did-resolver": "^8.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "sqlite3": "^5.1.6",
+    "web-did-resolver": "^2.0.23"
+  }
+}
